@@ -7,6 +7,6 @@ Module: dune-performance-regressions
 Version: 0.1
 Maintainer: luab00001@stud.uni-saarland.de
 # Required build dependencies
-Depends: dune-common dune-istl dune-geometry dune-typetree dune-uggrid dune-grid dune-multidomaingrid dune-localfunctions dune-functions dune-pdelab
+Depends: dune-common dune-istl dune-geometry dune-uggrid dune-grid dune-typetree dune-multidomaingrid dune-localfunctions dune-functions dune-pdelab
 # Optional build dependencies
 #Suggests:

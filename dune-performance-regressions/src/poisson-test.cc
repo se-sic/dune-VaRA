@@ -20,7 +20,7 @@
 
 #include <dune/pdelab.hh>
 
-#include "dune/example/gridexamples.hh"
+#include "dune/performance-regressions/gridexamples.hh"
 
 //===============================================================
 //===============================================================

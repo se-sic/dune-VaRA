@@ -10,6 +10,6 @@ Name: @PACKAGE_NAME@
 Version: @VERSION@
 Description: dune-performance-regressions module
 URL: http://dune-project.org/
-Requires: dune-common dune-istl dune-geometry dune-typetree dune-uggrid dune-grid dune-multidomaingrid dune-localfunctions dune-functions dune-pdelab
+Requires: dune-common dune-istl dune-geometry dune-uggrid dune-grid dune-alugrid dune-typetree dune-multidomaingrid dune-localfunctions dune-functions dune-pdelab
 Libs: -L${libdir}
 Cflags: -I${includedir}
