@@ -20,7 +20,7 @@
 
 #include <dune/pdelab.hh>
 
-#include "dune/performance-regressions/poisson-examples.hh"
+#include "dune/performance-regressions/poisson-problem.hh"
 
 //===============================================================
 //===============================================================
