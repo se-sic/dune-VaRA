@@ -31,7 +31,7 @@
 //
 
 template<typename Grid>
-class UnitTriangleMaker {
+class __attribute__((feature_variable("GridMaker"))) UnitTriangleMaker {
     static_assert(Grid::dimension == 2, "Dimension of grid must be 2");
     static_assert(Grid::dimensionworld == 2, "Dimension of world must be 2");
 public:
@@ -54,7 +54,7 @@ public:
 
 #if HAVE_DUNE_ALUGRID
 template<>
-class UnitTriangleMaker<Dune::ALUGrid<2,2,Dune::simplex,Dune::nonconforming> > {
+class __attribute__((feature_variable("GridMaker"))) UnitTriangleMaker<Dune::ALUGrid<2,2,Dune::simplex,Dune::nonconforming> > {
   typedef Dune::ALUGrid<2,2,Dune::simplex,Dune::nonconforming> Grid;
 public:
   static std::unique_ptr<Grid> create() {
@@ -69,7 +69,7 @@ public:
 //
 
 template<typename Grid>
-class TriangulatedUnitSquareMaker {
+class __attribute__((feature_variable("GridMaker")))  TriangulatedUnitSquareMaker {
     static_assert(Grid::dimension == 2, "Dimension of grid must be 2");
     static_assert(Grid::dimensionworld == 2, "Dimension of world must be 2");
 public:
@@ -94,7 +94,7 @@ public:
 
 #if HAVE_DUNE_ALUGRID
 template<>
-class TriangulatedUnitSquareMaker<Dune::ALUGrid<2,2,Dune::simplex,Dune::nonconforming> > {
+class __attribute__((feature_variable("GridMaker"))) TriangulatedUnitSquareMaker<Dune::ALUGrid<2,2,Dune::simplex,Dune::nonconforming> > {
   typedef Dune::ALUGrid<2,2,Dune::simplex,Dune::nonconforming> Grid;
 public:
   static std::unique_ptr<Grid> create() {
@@ -109,7 +109,7 @@ public:
 //
 
 template<typename Grid>
-class UnitTetrahedronMaker {
+class __attribute__((feature_variable("GridMaker")))  UnitTetrahedronMaker {
     static_assert(Grid::dimension == 3, "Dimension of grid must be 3");
     static_assert(Grid::dimensionworld == 3, "Dimension of world must be 3");
 public:
@@ -139,7 +139,7 @@ public:
 // Minimal triangulation with 5 tets, does contain unit tet
 // AlbertaSimplexGrid<3,3> cannot refine this, see Flyspry#569
 template<typename Grid>
-class TriangulatedUnitCubeMaker {
+class __attribute__((feature_variable("GridMaker"))) TriangulatedUnitCubeMaker {
     static_assert(Grid::dimension == 3, "Dimension of grid must be 3");
     static_assert(Grid::dimensionworld == 3, "Dimension of world must be 3");
 public:
@@ -196,7 +196,7 @@ class TriangulatedUnitCubeMaker<Dune::AlbertaGrid<3,3> >
 // Kuhn triangulation with 6 tets, does not contain unit tet, all tets have
 // (0,7) as a common edge
 template<typename Grid>
-class KuhnTriangulatedUnitCubeMaker {
+class __attribute__((feature_variable("GridMaker"))) KuhnTriangulatedUnitCubeMaker {
     static_assert(Grid::dimension == 3, "Dimension of grid must be 3");
     static_assert(Grid::dimensionworld == 3, "Dimension of world must be 3");
 public:
