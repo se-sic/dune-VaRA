@@ -20,6 +20,10 @@
 #include <dune/alugrid/grid.hh>
 #endif
 
+#include <dune/pdelab/boilerplate/pdelab.hh>
+#include <dune/pdelab/localoperator/convectiondiffusionfem.hh>
+#include <dune/pdelab/gridfunctionspace/vtk.hh>
+
 #include "gridmakers.hh"
 
 class YaspUnitSquare : public Dune::YaspGrid<2>
