@@ -18,9 +18,7 @@
 #include <dune/grid/yaspgrid.hh>
 #include <dune/grid/utility/structuredgridfactory.hh>
 
-#include <dune/pdelab.hh>
-
-#include "dune/performance-regressions/poisson-examples.hh"
+#include "dune/performance-regressions/poisson-problem.hh"
 
 //===============================================================
 //===============================================================
