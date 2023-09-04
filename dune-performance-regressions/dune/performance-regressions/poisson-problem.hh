@@ -151,9 +151,8 @@ struct PreconditionerMaker<PreconditionMarker::Richardson> {
               typename DomainContainerTy,
               typename RangeContainerTy>
     static auto create(MatrixTy m) {
-        return Dune::SeqILU<typename MatrixTy::Container,
-                DomainContainerTy,
-                RangeContainerTy>(native(m),1.0);
+        return Dune::Richardson<DomainContainerTy,
+        RangeContainerTy>(1.0);
     };
 };
 
