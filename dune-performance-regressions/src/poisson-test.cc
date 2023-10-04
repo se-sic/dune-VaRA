@@ -9,9 +9,6 @@
 #endif
 
 #include <iostream>
-#include <vector>
-#include <map>
-#include <string>
 
 #include <dune/common/filledarray.hh>
 #include <dune/common/parallel/mpihelper.hh>

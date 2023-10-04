@@ -9,16 +9,7 @@
 #endif
 
 #include <iostream>
-#include <vector>
-#include <map>
-#include <string>
-
-#include <dune/common/filledarray.hh>
 #include <dune/common/parallel/mpihelper.hh>
-#include <dune/grid/yaspgrid.hh>
-#include <dune/grid/utility/structuredgridfactory.hh>
-
-#include <dune/pdelab.hh>
 
 #include "dune/performance-regressions/poisson-problem.hh"
 
