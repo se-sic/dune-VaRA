@@ -54,7 +54,11 @@ int main(int argc, char** argv)
             FEM fem(gv);
 
             // solve problem
-            poisson<GV,FEM,Dune::PDELab::ConformingDirichletConstraints>(gv,fem,"poisson_yasp_Q2_2d",2);
+            poisson<GV,
+                    FEM,
+                    Dune::PDELab::ConformingDirichletConstraints,
+                    Dune::CGSolver,
+                    PreconditionMarker::SeqILU>(gv,fem,"poisson_yasp_Q2_2d",2);
         }
 
         // test passed
