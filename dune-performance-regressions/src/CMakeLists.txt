@@ -9,5 +9,3 @@ add_executable("poisson_yasp_q1_2d" poisson-yasp-q1-2d.cc)
 add_executable("poisson_yasp_q2_2d" poisson-yasp-q2-2d.cc)
 add_executable("poisson_yasp_q1_3d" poisson-yasp-q1-3d.cc)
 add_executable("poisson_yasp_q2_3d" poisson-yasp-q2-3d.cc)
-
-target_link_dune_default_libraries("dune-performance-regressions")
