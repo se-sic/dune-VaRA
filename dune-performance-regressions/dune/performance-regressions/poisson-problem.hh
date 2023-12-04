@@ -120,7 +120,7 @@ struct PreconditionerMaker {
 };
 
 template<>
-struct PreconditionerMaker<PreconditionMarker::SeqSSOR> {
+struct __attribute__((feature_variable("SeqSSOR"))) PreconditionerMaker<PreconditionMarker::SeqSSOR> {
     template <typename MatrixTy,
               typename DomainContainerTy,
               typename RangeContainerTy>
@@ -133,7 +133,7 @@ struct PreconditionerMaker<PreconditionMarker::SeqSSOR> {
 };
 
 template<>
-struct PreconditionerMaker<PreconditionMarker::SeqILU> {
+struct __attribute__((feature_variable("SeqILU"))) PreconditionerMaker<PreconditionMarker::SeqILU> {
     template <typename MatrixTy,
               typename DomainContainerTy,
               typename RangeContainerTy>
@@ -146,7 +146,7 @@ struct PreconditionerMaker<PreconditionMarker::SeqILU> {
 };
 
 template<>
-struct PreconditionerMaker<PreconditionMarker::Richardson> {
+struct __attribute__((feature_variable("Richardson"))) PreconditionerMaker<PreconditionMarker::Richardson> {
     template <typename MatrixTy,
               typename DomainContainerTy,
               typename RangeContainerTy>
