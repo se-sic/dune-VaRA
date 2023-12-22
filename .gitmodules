@@ -1,33 +1,33 @@
 [submodule "dune-common"]
 	path = dune-common
-	url = https://gitlab.dune-project.org/core/dune-common.git
+	url = https://github.com/dune-project/dune-common.git
 [submodule "dune-functions"]
 	path = dune-functions
-	url = https://gitlab.dune-project.org/staging/dune-functions.git
+	url = https://github.com/dune-project/dune-functions.git
 [submodule "dune-geometry"]
 	path = dune-geometry
-	url = https://gitlab.dune-project.org/core/dune-geometry.git
+	url = https://github.com/dune-project/dune-geometry.git
 [submodule "dune-grid"]
 	path = dune-grid
-	url = https://gitlab.dune-project.org/core/dune-grid.git
+	url = https://github.com/dune-project/dune-grid.git
 [submodule "dune-istl"]
 	path = dune-istl
-	url = https://gitlab.dune-project.org/core/dune-istl.git
+	url = https://github.com/dune-project/dune-istl.git
 [submodule "dune-localfunctions"]
 	path = dune-localfunctions
-	url = https://gitlab.dune-project.org/core/dune-localfunctions.git
+	url = https://github.com/dune-project/dune-localfunctions.git
 [submodule "dune-multidomaingrid"]
 	path = dune-multidomaingrid
-	url = https://gitlab.dune-project.org/extensions/dune-multidomaingrid.git
+	url = https://github.com/LuAbelt/dune-multidomaingrid.git
 [submodule "dune-pdelab"]
 	path = dune-pdelab
-	url = https://gitlab.dune-project.org/pdelab/dune-pdelab.git
+	url = https://github.com/dune-project/dune-pdelab.git
 [submodule "dune-typetree"]
 	path = dune-typetree
-	url = https://gitlab.dune-project.org/staging/dune-typetree.git
+	url = https://github.com/dune-project/dune-typetree.git
 [submodule "dune-uggrid"]
 	path = dune-uggrid
-	url = https://gitlab.dune-project.org/staging/dune-uggrid.git
+	url = https://github.com/dune-project/dune-uggrid.git
 [submodule "dune-alugrid"]
 	path = dune-alugrid
-	url = https://gitlab.dune-project.org/extensions/dune-alugrid.git
+	url = https://git.luabelt.de/LuAbelt/dune-alugrid.git
