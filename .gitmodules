@@ -18,7 +18,7 @@
 	url = https://github.com/dune-project/dune-localfunctions.git
 [submodule "dune-multidomaingrid"]
 	path = dune-multidomaingrid
-	url = https://github.com/LuAbelt/dune-multidomaingrid.git
+	url = https://gitlab.dune-project.org/extensions/dune-multidomaingrid.git
 [submodule "dune-pdelab"]
 	path = dune-pdelab
 	url = https://github.com/dune-project/dune-pdelab.git
@@ -30,4 +30,4 @@
 	url = https://github.com/dune-project/dune-uggrid.git
 [submodule "dune-alugrid"]
 	path = dune-alugrid
-	url = https://git.luabelt.de/LuAbelt/dune-alugrid.git
+	url = https://gitlab.dune-project.org/extensions/dune-alugrid.git
